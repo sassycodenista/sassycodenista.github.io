@@ -32,7 +32,7 @@
 	float: right;
 	padding: 0 1em;
 	width: 40%;
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
@@ -60,7 +60,7 @@
 }
 
 .icon {
-	color: #fff;
+	color: #ddd;
 	font-size: 150%;
 }
 
@@ -76,7 +76,7 @@
 	padding: 0.4em 0.25em;
 	width: 100%;
 	background: transparent;
-	color: #fff;
+	color: #AFB5BB;
 	font-size: 1.55em;
 }
 
@@ -100,7 +100,7 @@
 	z-index: -1;
 	width: 100%;
 	height: 4px;
-	background: #fff;
+	background: #6a7989;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -144,7 +144,7 @@
 	padding: 2.0em 0.15em 1.5em 0;
 	width: 100%;
 	background: transparent;
-	color: #fff;
+	color:rgba(255,255,255,.7);
 }
 
 .input__label--hoshi {
@@ -175,7 +175,7 @@
 	left: 0;
 	width: 100%;
 	height: calc(100% - 10px);
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #e0e0e0;
 }
 
 .input__label--hoshi::after {
@@ -267,7 +267,7 @@
 	position: absolute;
 	left: 0;
 	width: 100%;
-	color: #fff;
+	color: #df6589;
 	pointer-events: none;
 }
 
@@ -279,7 +279,7 @@
 	left: 0;
 	width: 50%;
 	height: 100%;
-	border: 4px solid #fff;
+	border: 4px solid #747981;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -363,7 +363,7 @@
 	padding: 0.85em 0.5em;
 	width: 100%;
 	background: transparent;
-	color: #fff;
+	color: #DDE2E2;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
@@ -406,7 +406,7 @@
 
 .input__label--jiro::after {
 	z-index: -1;
-	background: #fff;
+	background: #6a7989;
 	-webkit-transform: scale3d(1, 0, 1);
 	transform: scale3d(1, 0, 1);
 	-webkit-transform-origin: 50% 0%;
@@ -455,7 +455,7 @@
 	width: 100%;
 	background: #fff;
 	box-shadow: 0px 0px 0px 2px transparent;
-	color: #fff;
+	color: #eca29b;
 	-webkit-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
 }
@@ -478,7 +478,7 @@
 }
 
 .input__field--minoru:focus {
-	box-shadow: 0px 0px 0px 2px #fff;
+	box-shadow: 0px 0px 0px 2px #eca29b;
 }
 
 .input__field--minoru:focus + .input__label--minoru {
@@ -522,7 +522,7 @@
 .input__label--yoko {
 	position: relative;
 	width: 100%;
-	color: #fff;
+	color: #b04b40;
 	text-align: left;
 }
 
@@ -533,7 +533,7 @@
 	left: 0;
 	width: 100%;
 	height: 4em;
-	background: #fff;
+	background: #c5564a;
 	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
 	transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
 	-webkit-transform-origin: 50% 100%;
@@ -549,7 +549,7 @@
 	left: 0;
 	width: 100%;
 	height: 0.25em;
-	background: #fff;
+	background: #ad473c;
 	-webkit-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;
 	-webkit-transition: -webkit-transform 0.3s;
@@ -594,7 +594,7 @@
 	width: 100%;
 	border-radius: 2em;
 	background: #fff;
-	color: #fff;
+	color: #535d92;
 }
 
 .input__label--kyo {
@@ -657,8 +657,8 @@
 .input__label--akira {
 	padding: 0;
 	width: 100%;
-	background: #fff;
-	color: #fff;
+	background: #696a6e;
+	color: #cc6055;
 	cursor: text;
 }
 
@@ -669,7 +669,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fff;
+	background: #2f3238;
 	-webkit-transform: scale3d(0.97, 0.85, 1);
 	transform: scale3d(0.97, 0.85, 1);
 	-webkit-transition: -webkit-transform 0.3s;
@@ -713,8 +713,8 @@
 	padding: 0 0.55em;
 	width: calc(100% - 8px);
 	height: calc(100% - 8px);
-	background: #fff;
-	color: #fff;
+	background: #f0f0f0;
+	color: #7F8994;
 	opacity: 0;
 	-webkit-transform: scale3d(1, 0, 1);
 	transform: scale3d(1, 0, 1);
@@ -975,7 +975,7 @@
 	width: 60%;
 	height: 100%;
 	background: #fff;
-	color: #fff;
+	color: #9DABBA;
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
@@ -1039,7 +1039,7 @@
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
-	color: #fff;
+	color: #dadada;
 	text-align: left;
 }
 
@@ -1049,7 +1049,7 @@
 	top: 0;
 	width: 100%;
 	height: 7px;
-	background: #fff;
+	background: #dadada;
 	-webkit-transform: scale3d(1, 0.4, 1);
 	transform: scale3d(1, 0.4, 1);
 	-webkit-transform-origin: 50% 100%;
@@ -1066,7 +1066,7 @@
 	top: 0;
 	left: 0;
 	padding: 0.75em 0.15em;
-	color: #fff;
+	color: #da7071;
 	opacity: 0;
 	-webkit-transform: translate3d(0, 50%, 0);
 	transform: translate3d(0, 50%, 0);
@@ -1078,7 +1078,7 @@
 }
 
 .input__field--isao:focus + .input__label--isao::before {
-	background-color: #fff;
+	background-color: #da7071;
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1);
 }
